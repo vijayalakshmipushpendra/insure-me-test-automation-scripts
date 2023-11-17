@@ -64,7 +64,9 @@ public class App
     
     File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
     
-    File destFile = new File("/Users/shubham/Documents/test-reports.jpg");
+  //  File destFile = new File("/Users/shubham/Documents/test-reports.jpg");
+    File destFile = new File("/home/ubuntu/test-reports.jpg");
+    
     
     FileUtils.copyFile(srcFile, destFile);
     
