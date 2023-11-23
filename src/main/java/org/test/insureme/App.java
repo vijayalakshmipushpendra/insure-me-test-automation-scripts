@@ -74,10 +74,6 @@ public class App
 
    
     driver.quit();
-    
-    
-    	
-    	
 
         System.out.println( "Hello World!" );
     }
