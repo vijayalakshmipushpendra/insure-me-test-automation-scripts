@@ -71,8 +71,7 @@ public class App
     FileUtils.copyFile(srcFile, destFile);
     
     Thread.sleep(1000);
-    
- 
+
    
     driver.quit();
     
